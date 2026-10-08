@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.16.11 (2026-10-08)
+
+ * [22e5807cf](https://github.com/kubeovn/kube-ovn/commit/22e5807cf993630ed9429eae08bd1a2a9dad96cc) release v1.16.11
+ * [eddd51d47](https://github.com/kubeovn/kube-ovn/commit/eddd51d47cf413a30f3196f4064fcda53de39411) fix(pinger,monitor): allow monitoring/metrics components to find correct ctrl sockets (#7609)
+ * [39fc10716](https://github.com/kubeovn/kube-ovn/commit/39fc10716af86857ae4f4852d4abdb54b115ccff) fix: restore default NORMAL flow on provider bridges after ovs restart (#7546) (#7608)
+ * [9410525fb](https://github.com/kubeovn/kube-ovn/commit/9410525fba4c5aa3efd96adbcdf8e8aaf947a9cd) fix(controller): requeue network policies when pod is routed (#7605)
+ * [6870fa2a7](https://github.com/kubeovn/kube-ovn/commit/6870fa2a70e1c1483315c7b4dcc7e359593a1725) fix: preserve OVN EIP status during allocation race (#7597)
+ * [2a5b012a9](https://github.com/kubeovn/kube-ovn/commit/2a5b012a9731539324de9dba85fbb0f89118181b) fix(deps): update module golang.org/x/tools to v0.51.0 (#7590)
+ * [bc13cf368](https://github.com/kubeovn/kube-ovn/commit/bc13cf3682632efd0bc7ae1945582b392739cc97) prepare for next release
+
+### Contributors
+
+ * renovate[bot]
+ * zhangzujian
+ * 张祖建
+
 ## v1.16.10 (2026-10-01)
 
  * [cb4076adc](https://github.com/kubeovn/kube-ovn/commit/cb4076adc7176a594989d5f25b343f2f06cdc612) release v1.16.10
